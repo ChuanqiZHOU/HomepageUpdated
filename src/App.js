@@ -2,13 +2,14 @@ import { Routes, Route } from 'react-router-dom'
 
 // import rendering pages
 import Home from './pages/Home';
-
+import MCMD from './pages/MCMD'
 
 function App() {
   return (
     <div className="App">    
     <Routes>
-        <Route path="/" element={<Home></Home>}></Route>
+        <Route exact path="/" element={<Home></Home>}></Route>
+        <Route path="/MCMD" element={<MCMD></MCMD>}></Route>
       </Routes>
     </div>
   );

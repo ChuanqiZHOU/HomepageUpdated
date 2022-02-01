@@ -1,0 +1,150 @@
+@media screen and (min-width: 992px) {
+  .experience {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 3.125rem;
+    background-color: #E9F1FF;
+  }
+  .experienceContainer {
+    width: 78%;
+    height: 100vh;
+    margin-left: 11vw;
+  }
+  .experienceTitle {
+    font-size: 1.75rem;
+    font-weight: 500;
+    font-family: Poppins;
+    color: deeppink;
+  }
+  .subExperienceTitle {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.4;
+    font-family: Poppins;
+    color: #2C657D;
+    text-transform: uppercase;
+  }
+  .experienceDiscription {
+    margin-top: 0;
+    padding-top: 0.15rem;
+  }
+  .expert {
+    width: 100%;
+    height: 60%;
+    margin-top: 4.625rem;
+  }
+  .expertBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    width: 100%;
+    height: 30%;
+    font-size: 1.25rem;
+  }
+  .expertBox1 {
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  .expertBox2 {
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0;
+    transition: all 2.5s ease-in-out;
+  }
+  .expertBox3 {
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0;
+    transition: all 4.5s ease-in-out;
+  }
+  .year {
+    width: 20%;
+    color: #828282;
+  }
+  .jobPosition {
+    text-align: left;
+    width: 30%;
+  }
+  .company {
+    text-align: left;
+    width: 30%;
+  }
+  .roleDiscrib {
+    width: 50%;
+    color: #828282;
+    word-wrap: break-word;
+  }
+}
+@media screen and (max-width: 992px) {
+  .experienceContainer {
+    width: 78%;
+    margin-left: 11vw;
+    background-color: #E9F1FF;
+  }
+  .experienceTitle {
+    font-size: 1.75rem;
+    font-weight: 500;
+    font-family: Poppins;
+    color: deeppink;
+  }
+  .subExperienceTitle {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.4;
+    font-family: Poppins;
+    color: #2C657D;
+    text-transform: uppercase;
+  }
+  .expert {
+    width: 100%;
+  }
+  .expertBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    width: 100%;
+    font-size: 1.25rem;
+  }
+  .expertBox1 {
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 1;
+    margin-bottom: 1rem;
+  }
+  .expertBox2 {
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 1;
+    margin-bottom: 1rem;
+  }
+  .expertBox3 {
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 1;
+    margin-bottom: 1rem;
+  }
+  .year {
+    width: 100%;
+    color: #828282;
+  }
+  .jobPosition {
+    text-align: left;
+    width: 100%;
+    margin-left: 10%;
+  }
+  .company {
+    text-align: left;
+    width: 100%;
+    margin-left: 10%;
+  }
+  .roleDiscrib {
+    width: 100%;
+    color: #828282;
+    word-wrap: break-word;
+    margin-left: 20%;
+  }
+}

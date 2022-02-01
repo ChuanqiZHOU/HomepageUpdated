@@ -1,0 +1,121 @@
+@media screen and (min-width: 992px) {
+  .about {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 3.125rem;
+  }
+  .aboutContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 78%;
+    height: 100vh;
+    margin-left: 11vw;
+  }
+  .aboutLeft {
+    /* display: flex; */
+    width: 50%;
+    height: 100%;
+  }
+  .aboutRight {
+    width: 50%;
+    height: 100%;
+  }
+  .cardBottom {
+    float: left;
+    width: 70%;
+    height: 65%;
+    margin: 10% auto;
+    border-radius: 0.625rem;
+    background-color: deeppink;
+    margin-left: 6.625rem;
+    transform: rotateZ(-6deg);
+  }
+  .cardTop {
+    width: 70%;
+    height: 65%;
+    margin: 10% auto;
+    /* background-color: skyblue; */
+    background-image: url(../../../assets/images/about_self.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #003648;
+    border-radius: 0.625rem;
+    margin-left: 10.625rem;
+    transform: rotateZ(7deg);
+  }
+  .name {
+    font-size: 1.75rem;
+    font-weight: 500;
+    font-family: Poppins;
+    color: deeppink;
+  }
+  .jobTitle {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.4;
+    font-family: Poppins;
+    color: #000;
+    text-transform: uppercase;
+  }
+  .role {
+    font-size: 1.0625rem;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: Poppins;
+    color: #000;
+  }
+  .typedtext {
+    color: deeppink;
+    font-size: 1.25rem;
+  }
+  .techImg img {
+    width: 70%;
+    height: 30%;
+    margin-top: 1.25rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .aboutRight {
+    display: none;
+  }
+  .aboutLeft {
+    /* display: flex; */
+    width: 100%;
+    height: 100%;
+  }
+  .aboutContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 78%;
+    margin-left: 11vw;
+  }
+  .name {
+    font-size: 1.75rem;
+    font-weight: 500;
+    font-family: Poppins;
+    color: deeppink;
+  }
+  .jobTitle {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.4;
+    font-family: Poppins;
+    color: #000;
+    text-transform: uppercase;
+  }
+  .role {
+    font-size: 1.0625rem;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: Poppins;
+    color: #000;
+  }
+  .typedtext {
+    color: deeppink;
+    font-size: 1.25rem;
+  }
+  .techImg img {
+    display: none;
+  }
+}
