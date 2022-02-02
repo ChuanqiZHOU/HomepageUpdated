@@ -5,6 +5,7 @@ import Experience from './Experiences'
 import Education from './Education'
 import Contact from './Contact'
 import Portfolio from './Portfolio'
+import Skill from './Skill'
 const Home = () => { 
 
     
@@ -12,6 +13,7 @@ const Home = () => {
     <>
       <NaviHeader></NaviHeader>
       <About></About>
+      <Skill></Skill>
       <Portfolio></Portfolio>
       <Experience></Experience>
       <Education></Education>

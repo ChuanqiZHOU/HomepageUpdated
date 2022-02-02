@@ -28,7 +28,7 @@ const Portfolio = () => {
               className="mySwiper"
               breakpoints={{
                 992: {
-                  width:992,
+                  // width:992,
                   slidesPerView:3
                 },
                 768: {
@@ -58,6 +58,7 @@ const Portfolio = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide className={styles['swiper-slide']}>
+                
                 <div className={styles.mySwiperSlide}>
                   <div className={styles.slideCover}>
                     <a
