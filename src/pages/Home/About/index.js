@@ -60,9 +60,9 @@ const About = () => {
               </p>
 
              
-              <a href="/favicon.ico" download>
+              {/* <a href="/favicon.ico" download>
                 <button className={styles.cvDownloadBtn}>CV DownLoad</button>
-              </a>
+              </a> */}
             </div>
             <div className={['col-md-12', styles.aboutRight].join(' ')}>
               <div className={styles.cardBottom}></div>
