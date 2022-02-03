@@ -1,13 +1,14 @@
 .skill {
   width: 100vw;
   height: 100vh;
-  margin-top: 3.125rem;
+  padding-top: 3.125rem;
   background-color: #E9F1FF;
 }
 .skillContainer {
   width: 78%;
   height: 100%;
   margin-left: 11vw;
+  padding-top: 3.125rem;
 }
 .skillTitle {
   font-size: 1.75rem;
@@ -30,6 +31,7 @@
 }
 .skillDetail {
   width: 100%;
+  padding-top: 1rem;
 }
 .role {
   font-size: 1.25rem;
@@ -37,4 +39,27 @@
   line-height: 1.4;
   font-family: Poppins;
   color: #000;
+}
+.col {
+  margin-bottom: 2.5rem;
+}
+.card {
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  height: 100%;
+}
+.cardLogo {
+  padding-top: 2rem 0;
+  color: darkslategrey;
+}
+.cardTitle {
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.cardText {
+  margin-top: 1.25rem;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  color: gray;
 }
