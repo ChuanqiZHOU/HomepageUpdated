@@ -32,7 +32,7 @@ const Skill = () => {
                           Proficient in applying various plug-ins in{' '}
                           <i className={styles.techs}>VS code</i> and
                           <i className={styles.techs}> HBuilder</i> editor on
-                          Window or Linux environments
+                          Windows or Linux environments
                         </Card.Text>
                       </Card.Body>
                     </Card>
@@ -71,7 +71,9 @@ const Skill = () => {
                           Web optimization
                         </Card.Title>
                         <Card.Text className={styles.cardText}>
-                          Utilizing <i className={styles.techs}>Bootstrap</i>, <i className={styles.techs}>Ant Degin</i> and <i className={styles.techs}>jQuery</i> to optimize
+                          Utilizing <i className={styles.techs}>Bootstrap</i>,{' '}
+                          <i className={styles.techs}>Ant Degin</i> and{' '}
+                          <i className={styles.techs}>jQuery</i> to optimize
                           website appearance and code.
                         </Card.Text>
                       </Card.Body>
@@ -90,8 +92,10 @@ const Skill = () => {
                           Back End
                         </Card.Title>
                         <Card.Text className={styles.cardText}>
-                          Building a backend platform to store data by <i className={styles.techs}>node.js</i>, 
-                          <i className={styles.techs}> Express.js</i> and <i className={styles.techs}>MongoDB</i>.
+                          Building a backend platform to store data by{' '}
+                          <i className={styles.techs}>node.js</i>,
+                          <i className={styles.techs}> Express.js</i> and{' '}
+                          <i className={styles.techs}>MongoDB</i>.
                         </Card.Text>
                       </Card.Body>
                     </Card>
@@ -111,7 +115,9 @@ const Skill = () => {
                         </Card.Title>
                         <Card.Text className={styles.cardText}>
                           Front-end and back-end Restful interaction based on
-                          <i className={styles.techs}>fetch(node.js)</i>, <i className={styles.techs}>Axios</i>, and <i className={styles.techs}>jQuery.ajax</i>
+                          <i className={styles.techs}>fetch(node.js)</i>,{' '}
+                          <i className={styles.techs}>Axios</i>, and{' '}
+                          <i className={styles.techs}>jQuery.ajax</i>
                         </Card.Text>
                       </Card.Body>
                     </Card>
@@ -129,9 +135,12 @@ const Skill = () => {
                           Accessory
                         </Card.Title>
                         <Card.Text className={styles.cardText}>
-                          Bundling code with <i className={styles.techs}>webpack</i> and maintaining it on
-                          <i className={styles.techs}>gitHub</i> with <i className={styles.techs}>GIT</i>. Another hobby is for android
-                          development.
+                          Bundling code with{' '}
+                          <i className={styles.techs}>webpack</i> and
+                          maintaining it on
+                          <i className={styles.techs}>gitHub</i> with{' '}
+                          <i className={styles.techs}>GIT</i>. Deploying the app
+                          on <i className={styles.techs}> AWS EC2</i> server.
                         </Card.Text>
                       </Card.Body>
                     </Card>

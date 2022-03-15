@@ -29,12 +29,12 @@ const Portfolio = () => {
               breakpoints={{
                 992: {
                   // width:992,
-                  slidesPerView:3
+                  slidesPerView: 3,
                 },
                 768: {
-                  width:768,
-                  slidesPerView:1
-                }
+                  width: 768,
+                  slidesPerView: 1,
+                },
               }}
               autoplay={{
                 delay: 2500,
@@ -54,11 +54,17 @@ const Portfolio = () => {
                     >
                       Website Optimization
                     </a>
+                    <a
+                      className={styles.codeResource}
+                      href="https://github.com/ChuanqiZHOU/chuanqizhou.github.io/tree/main/MCMD"
+                      target="_blank"
+                    >
+                      Coding Resource
+                    </a>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide className={styles['swiper-slide']}>
-                
                 <div className={styles.mySwiperSlide}>
                   <div className={styles.slideCover}>
                     <a
@@ -67,6 +73,34 @@ const Portfolio = () => {
                       target="_blank"
                     >
                       Android App Development
+                    </a>
+                    <a
+                      className={styles.codeResource}
+                      href="https://github.com/ChuanqiZHOU/chuanqizhou.github.io/tree/main/MCMD"
+                      target="_blank"
+                    >
+                      Coding Resource
+                    </a>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles['swiper-slide']}>
+                <div className={styles.blogSlide}>
+                  <div className={styles.slideCover}>
+                    <a
+                      className={styles.slideDiscription}
+                      href="http://billzhou.shop"
+                      target="_blank"
+                    >
+                      Blog App Development
+                    </a>
+
+                    <a
+                      className={styles.codeResource}
+                      href="https://github.com/ChuanqiZHOU/blogSystem"
+                      target="_blank"
+                    >
+                      Coding Resource
                     </a>
                   </div>
                 </div>
