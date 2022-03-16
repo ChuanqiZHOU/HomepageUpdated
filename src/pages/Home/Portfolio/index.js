@@ -76,7 +76,7 @@ const Portfolio = () => {
                     </a>
                     <a
                       className={styles.codeResource}
-                      href="https://github.com/ChuanqiZHOU/chuanqizhou.github.io/tree/main/MCMD"
+                      href="https://github.com/ChuanqiZHOU/AndroidApp"
                       target="_blank"
                     >
                       Coding Resource
